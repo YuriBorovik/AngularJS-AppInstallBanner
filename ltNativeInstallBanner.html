@@ -1,0 +1,44 @@
+<homepage-banner-container>
+    <homepage-banner-application>
+        <homepage-banner-app>
+            <img flex-item="4" class="homepage-banner-tv-logo"
+                 ng-src="{{ YOUR LOGO }}">
+            <div class="fs-title font-weight-600" ng-bind="{{ YOUR TEXT }}"></div>
+        </homepage-banner-app>
+        <homepage-banner-rating>
+            <svg class="homepage-banner-rating-star" viewBox="0 0 24 24">
+                <path fill="#4CAF50"
+                      d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/>
+            </svg>
+            <svg class="homepage-banner-rating-star" viewBox="0 0 24 24">
+                <path fill="#4CAF50"
+                      d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/>
+            </svg>
+            <svg class="homepage-banner-rating-star" viewBox="0 0 24 24">
+                <path fill="#4CAF50"
+                      d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/>
+            </svg>
+            <svg class="homepage-banner-rating-star" viewBox="0 0 24 24">
+                <path fill="#4CAF50"
+                      d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"/>
+            </svg>
+            <svg class="homepage-banner-rating-star" viewBox="0 0 24 24">
+                <path fill="#4CAF50"
+                      d="M12,15.89V6.59L13.71,10.63L18.09,11L14.77,13.88L15.76,18.16M22,9.74L14.81,9.13L12,2.5L9.19,9.13L2,9.74L7.45,14.47L5.82,21.5L12,17.77L18.18,21.5L16.54,14.47L22,9.74Z"/>
+            </svg>
+        </homepage-banner-rating>
+    </homepage-banner-application>
+    <homepage-banner-close-button>
+        <i class="mdi mdi-close" ng-click="closeBanner();"></i>
+    </homepage-banner-close-button>
+    <homepage-banner-platform>
+        <i class="mdi mdi-google-play"></i>
+        <text>Google Play</text>
+    </homepage-banner-platform>
+    <homepage-banner-install-button>
+        <a class="homepage-banner-button btn btn--m btn--raised btn--green tc-white"
+           href="{{ YOUR URL TO PLAY MARKET APP }}" target="_blank"
+           itemprop="downloadUrl" ng-click="goMarket();" lx-ripple translate="{{ 'INSTALL' }}">
+        </a>
+    </homepage-banner-install-button>
+</homepage-banner-container>
