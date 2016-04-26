@@ -4,7 +4,7 @@ Custom version of Chrome Native Install Banner
 Dependencies:
 -------------
 [VelocityJS](http://julian.com/research/velocity/)  
-[Material Design Icons](http://mterialdesignicons.com)
+[Material Design Icons](http://materialdesignicons.com)
 
 
 Install:
